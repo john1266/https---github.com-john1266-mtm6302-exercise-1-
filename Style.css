@@ -1,0 +1,76 @@
+#grid-container{
+  margin: 5rem;
+  display: grid;
+  column-gap: 3rem;
+
+}
+
+
+.emoji{
+    display:inline-grid;
+    width: 3rem;
+    height: 3rem;
+    font-size: 3.5rem;
+    margin: 6rem;
+    margin-top: 1rem;
+    text-align: center;
+
+}
+
+h1{
+font-size: 3rem;
+text-align: center;
+}
+
+
+@media (min-width: 601px) and (max-width: 1200px){
+
+  #grid-container{
+    margin: 4rem;
+    display: grid;
+  }
+  
+  
+  .emoji{
+      display:inline-grid;
+      width: 2rem;
+      height: 2rem;
+      font-size: 3rem;
+      margin: 5rem;
+      margin-top: 1rem;
+      text-align: center;
+  
+  }
+  
+  h1{
+  font-size: 2rem;
+  text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  #grid-container{
+    margin: 4rem;
+    display: grid;
+  }
+  
+  
+  .emoji{
+      display:inline-grid;
+      width: 2rem;
+      height: 5rem;
+      font-size: 4.5rem;
+      margin: 5rem;
+      margin-top: 1rem;
+      text-align: center;
+  
+  }
+  
+  h1{
+  font-size: 2rem;
+  text-align: center;
+  }
+
+}
+ 
